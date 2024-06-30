@@ -1,5 +1,5 @@
 import { HStack, Switch, Text, useColorMode } from "@chakra-ui/react";
-const ColotModeSwitch = () => {
+const ColorModeSwitch = () => {
 	const { toggleColorMode, colorMode } = useColorMode();
 	return (
 		<div>
@@ -15,4 +15,4 @@ const ColotModeSwitch = () => {
 	);
 };
 
-export default ColotModeSwitch;
+export default ColorModeSwitch;
